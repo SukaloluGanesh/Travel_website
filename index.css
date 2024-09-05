@@ -1,0 +1,169 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.back{
+  background-image: url(./tourimages/back2.avif);
+  width: 100%;
+  height: 800px;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.logo{
+color:greenyellow;
+font-size: 50px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.naviiii{
+  flex: 2.5; 
+}
+.navii{
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  
+}
+.naviii{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+ font-family: Arial, Helvetica, sans-serif;
+  color:greenyellow;
+  cursor: pointer;
+}
+.name{
+margin-top: 140px;
+margin-left: 50px;
+margin-bottom: 10px;
+}
+.pack{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size:100px;
+}
+.pick{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.lets{
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color:whitesmoke;
+  border-radius: 10px;
+  opacity:0.5;
+  padding: 10px 30px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.go{
+color: blueviolet;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Second*/
+.second{
+padding:50px;
+}
+.cloo{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+
+
+.age{
+font-size:40px;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 30px;
+margin-left: 60px;
+
+}
+.imageeee{
+  width: 250px;
+  height: 150px;
+}
+.card{
+  padding: 20px;
+  border: 3px solid black ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  gap: 20px;
+}
+.but{
+  padding: 5px;
+  background-color: orange;
+}
+.card:hover{
+  transition: scale(1.04);
+  border: 3px solid blueviolet;
+}
+.lets:hover{
+  transition: scale(1.04);
+  border: 3px solid blueviolet; 
+}
+.imageeee:hover{
+  transition: scale(1.04);
+  border: 3px solid greenyellow; 
+}
+
+
+
+/*footer*/
+
+.footer{
+  background-color: black;
+  height:300px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  
+}
+.foot{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+.footo{
+  display: flex;
+  align-items:start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 50px;
+}
+.quick{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.bi{
+  color: white;
+}
+.footoo{
+  display: flex;
+  align-items:start;
+  justify-content: start;
+  flex-direction:row;
+  gap: 10px;
+  
+}
+.rights{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+}
